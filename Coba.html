@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en">
+    <head>
+      <title>Grid CSS</title>
+          <link rel="stylesheet" href="Stylecoba.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+      </head>
+   <body>
+     <div class="container">
+     <header class="header">
+       <div class="hero">
+       <h2 class="heading">RNA Sport Shop</h2>
+       <p class="sub-heading">Perlengkapan Volly Ball</p>
+       </div>
+       <div class="features feature-1">
+       <h4 class="price">IDR 500k</h4>
+       <p class="item">Jersey BJB</p>
+       </div>
+       <div class="features feature-2">
+       <h4 class="price">IDR 300k</h4>
+       <p class="item">Jersey BNI</p>
+       </div>
+  </header>
+  <nav class="menu">
+     <div class="brand">
+      <h1>RNA SPORT SHOP</h1>
+      </div>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Products</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">
+           <input type="checkbox" />
+           <span></span>
+           <span></span>
+           <span></span>
+         </div>
+  </nav>
+  <section class="services">
+    <div class="service">
+      <div class="icon">
+        <img src="BDG.jpg">
+      </div>
+      <h3>Jersey</h3>
+      <p>Polyester Dri fit Graphline,Quick Dry technology,Graphic Full printing,Sublimation Transfer Papper Technology</p>
+    </div>
+        <div class="service">
+      <div class="icon">
+        <img src="Sepatu.png">
+      </div>
+      <h3>Sepatu</h3>
+      <p>Mizuno shoes provide flexibility and comfort while also featuring some high technology in their shoes.</p>
+    </div>
+    <div class="service">
+      <div class="icon">
+        <img src="Bolavoli.png">
+      </div>
+      <h3>Bola</h3>
+      <p>Mikasa volleyball
+Lightweight and durable perfect for indoor and outdoor use</p>
+    </div>
+    <div class="service">
+      <div class="icon">
+        <img src="kerudung.jpg">
+      </div>
+      <h3>Hijab Sport</h3>
+      <p>The sporty hijab is very comfortable and cool to wear for sports</p>
+    </div>
+  </section>
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <img src="img/bni1.jpg">
+    <img src="img/bni2.jpg">
+    <img src="img/bni3.jpg">
+    <img src="img/bni4.jpg">
+    <img src="img/bni5.jpg">
+    <img src="img/bni6.jpg">
+    <img src="img/bjb1.jpg">
+    <img src="img/bjb2.jpg">
+    <img src="img/bjb3.jpg">
+    <img src="img/bjb4.jpg">
+    <img src="img/bjb5.jpg">
+    <img src="img/bjb6.jpg">
+  </section>
+  <script>
+  const menuToggle=document.querySelector('.menu-toggle input');
+const nav=document.querySelector('nav ul');
+
+menuToggle.addEventListener('click',function(){
+  nav.classList.toggle('slide');
+});
+</script>
+  </body>
+  </html>
