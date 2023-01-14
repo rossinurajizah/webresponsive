@@ -139,7 +139,7 @@ nav ul li a:hover{
   box-shadow:0 0 2px rgba(0,0,0,0,3);
 }
 .service h3{
-  font-size: 1em;
+  font-size: 0.8em;
 }
 .service p{
   letter-spacing: 0.5px;
@@ -186,7 +186,7 @@ nav ul li a:hover{
     justify-content: center;
   }
 }
-@media(max-width:600px){
+@media(max-width:500px){
   body{
     margin: 15px;
   }
