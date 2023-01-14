@@ -143,10 +143,11 @@ nav ul li a:hover{
 }
 .service p{
   letter-spacing: 0.5px;
-  font-size:0.5em ;
+  font-size:0.4em ;
 }
 .service.icon.img{
   background-position: center;
+  background-size:cover;
 }
 .gallery{
   margin-top: 100px;
