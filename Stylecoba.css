@@ -187,7 +187,7 @@ nav ul li a:hover{
     justify-content: center;
   }
 }
-@media(max-width:500px){
+@media(max-width:600px){
   body{
     margin: 15px;
   }
@@ -226,3 +226,8 @@ nav ul li a:hover{
     opacity: 1;
     transform: translateY(0);
   }
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
