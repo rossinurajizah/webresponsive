@@ -199,7 +199,7 @@ nav ul li a:hover{
     align-items:start ;
   }
   .menu-list{
- grid-template-columns:1fr 2fr;
+ grid-template-columns:1fr;
   }
     .header{
     grid-template-areas: 
