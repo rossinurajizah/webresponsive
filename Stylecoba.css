@@ -187,7 +187,7 @@ nav ul li a:hover{
     justify-content: center;
   }
 }
-@media(max-width:350px){
+@media(max-width:500px){
   body{
     margin: 15px;
   }
