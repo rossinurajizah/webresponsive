@@ -164,11 +164,11 @@ nav ul li a:hover{
 /*Responsive Breakpoint*/
 @media(max-width:1024px){
   .menu{
-    order:-1;
-    grid-template-columns:1fr 2fr ;
+    order:inherit;
+    grid-template-columns:1fr ;
   }
   .menu.brand{
-    display: flex;
+    display: none;
   }
   .menu-toggle{
     display: none;
