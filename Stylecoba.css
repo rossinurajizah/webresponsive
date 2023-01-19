@@ -170,9 +170,6 @@ nav ul li a:hover{
   .menu.brand{
     display: none;
   }
-  .menu-toggle{
-    display: none;
-  }
   .hero > * {
     display: flex;
     background-color: black;
