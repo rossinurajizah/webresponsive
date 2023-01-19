@@ -57,10 +57,6 @@ body {
   background-size: cover;
   background-position:center;
 }
-.features price{
- font-size:3em;
- font-weight:200;
-}
 /*Navigation*/
 nav {
   display: flex;
@@ -135,7 +131,7 @@ nav ul li a:hover{
   gap:20px;
 }
 .service{
-  background-color:#dfe6e9;
+  background-color: #bdc3c7;
   padding: 15px;
   text-align: center;
   border:1px solid #aaa;
@@ -147,11 +143,10 @@ nav ul li a:hover{
 }
 .service p{
   letter-spacing: 0.5px;
-  font-size:1em ;
+  font-size:0.4em ;
 }
 .service.icon.img{
   background-position: center;
-  background-size:cover;
 }
 .gallery{
   margin-top: 100px;
@@ -168,10 +163,13 @@ nav ul li a:hover{
 /*Responsive Breakpoint*/
 @media(max-width:1024px){
   .menu{
-    order:inherit;
+    order:-1;
     grid-template-columns:1fr ;
   }
   .menu.brand{
+    display: flex;
+  }
+  .menu-toggle{
     display: none;
   }
   .hero > * {
@@ -200,7 +198,7 @@ nav ul li a:hover{
     align-items:start ;
   }
   .menu-list{
- grid-template-columns:1fr;
+ grid-template-columns:1fr 2fr;
   }
     .header{
     grid-template-areas: 
@@ -231,4 +229,5 @@ nav ul li a:hover{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   gap:20px;
+}
 }
