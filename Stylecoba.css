@@ -57,10 +57,6 @@ body {
   background-size: cover;
   background-position:center;
 }
-.feature price{
-  font-size: 3em;
-  font-weight: 200;
-}
 /*Navigation*/
 nav {
   display: flex;
