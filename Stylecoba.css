@@ -50,6 +50,7 @@ body {
   background-image:url(BJB.jpg);
   background-size: cover;
   background-position:center;
+}
 .feature-2 {
   grid-area: feature-2;
   background-image:url(BNI.jpg);
